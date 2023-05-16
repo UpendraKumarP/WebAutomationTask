@@ -1,4 +1,7 @@
 # WebAutomationTask
+
+Implementation Details:
+======================
 Step1: Created a SpecFlow Project in Visual Studio using XUnit (for inbuilt parallel execution feature).
 
 Step2: Added Nuget packages for "Selenium.Support", "ChromeDriver" and build the solution
@@ -20,6 +23,17 @@ Step4: Here is the solution I followed to implement given task
 
 6.Finally waited for removed message and validated the remaining items in the cart
 
-7.Added invalid scenarios too in the feature file to confirm if code validating correctly
+7.Added 2 invalid scenarios too in the feature file to confirm if code validating correctly
 
 Step5: Created a git repository from visual studio and push the changes to the git hub
+
+
+Execution Details:
+==================
+1. Clone the poject into local repository
+
+2. Have the necessary Nuget packages "Selenium Support", "ChromeDriver"
+
+3. Build the solution using Build menu
+
+4. Run All tests using Test Explorer
