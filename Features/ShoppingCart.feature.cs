@@ -184,16 +184,16 @@ testRunner.Then("I should see 3 items listed in my cart", ((string)(null)), ((Te
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="InvalidCase2_Verify if Shopping Cart failing if cart items are not matching with " +
-            "removed item")]
+            "remaining items after item removed")]
         [Xunit.TraitAttribute("FeatureTitle", "Shopping Cart")]
         [Xunit.TraitAttribute("Description", "InvalidCase2_Verify if Shopping Cart failing if cart items are not matching with " +
-            "removed item")]
-        public virtual void InvalidCase2_VerifyIfShoppingCartFailingIfCartItemsAreNotMatchingWithRemovedItem()
+            "remaining items after item removed")]
+        public virtual void InvalidCase2_VerifyIfShoppingCartFailingIfCartItemsAreNotMatchingWithRemainingItemsAfterItemRemoved()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("InvalidCase2_Verify if Shopping Cart failing if cart items are not matching with " +
-                    "removed item", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+                    "remaining items after item removed", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 20
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
